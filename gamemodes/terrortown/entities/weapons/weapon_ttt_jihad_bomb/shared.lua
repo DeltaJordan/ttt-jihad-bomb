@@ -93,6 +93,7 @@ SWEP.NoSights = true
 -- precache sounds and models
 function SWEP:Precache()
 	util.PrecacheSound("weapons/jihad_bomb/jihad.wav")
+	util.PrecacheSound("weapons/jihad_bomb/mariah_jihad.wav")
 	util.PrecacheSound("weapons/jihad_bomb/big_explosion.wav")
 
 	util.PrecacheModel("models/humans/charple01.mdl")
